@@ -13,7 +13,7 @@
 
 ``` bash install_grafana_raspberry_pi5.sh```
 
-4. Access Grafana Web Interface 
+4. Access Grafana Web Interface through your favorite web browser ie. Chrome/Firefox/Brave/Safari...
 
 ```http://<IP address of your Raspberry Pi>:3000/login```
 
