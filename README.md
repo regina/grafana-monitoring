@@ -15,11 +15,12 @@
 
 4. Access Grafana Web Interface 
 
-http://<IP address of your Raspberry Pi>:3000/login 
+```http://<IP address of your Raspberry Pi>:3000/login```
+
 - default credentials are admin/admin
 - for security reasons change them immediatelly especially if your Raspberry Pi is publicly accessible
 
-![drawing](Grafana-web-interface.png)
+![drawing](Grafana-web-interface.png =250x)
 
 
 
