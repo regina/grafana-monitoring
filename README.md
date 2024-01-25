@@ -22,8 +22,7 @@
     password: admin
 - for security reasons change them immediatelly especially if your Raspberry Pi is publicly accessible
 
-![drawing](Grafana-web-interface.png)
-<img src="https://github.com/veronikaklauzova/Grafana/blob/main/Grafana-web-interface.png?raw=true" width=50% height=50%>
+<img src="https://github.com/veronikaklauzova/Grafana/blob/main/Grafana-web-interface.png?raw=true" width=80% height=80%>
 
 
 
