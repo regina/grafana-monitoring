@@ -17,10 +17,13 @@
 
 ```http://<IP address of your Raspberry Pi>:3000/login```
 
-- default credentials are admin/admin
+- default credentials are 
+    username: admin
+    password: admin
 - for security reasons change them immediatelly especially if your Raspberry Pi is publicly accessible
 
-![drawing](Grafana-web-interface.png =250x)
+![drawing](Grafana-web-interface.png)
+<img src="https://github.com/veronikaklauzova/Grafana/blob/main/Grafana-web-interface.png?raw=true" width=50% height=50%>
 
 
 
