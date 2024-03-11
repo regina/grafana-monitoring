@@ -30,6 +30,6 @@ Alternatively, you can automate the initial logon into Grafana monitoring tool u
 
 One liner to install grafana and test auto-login into monitoring tool:
 
-```git clone https://github.com/veronikaklauzova/Grafana.git && bash Grafana/Install-Grafana/install_grafana_raspberry_pi5.sh && ~/.local/bin/python3 Grafana/Install-Grafana/grafana-auto-login-with-selenium.py```
+```git clone https://github.com/veronikaklauzova/Grafana.git && bash Grafana/Install-Grafana/install_grafana_raspberry_pi5.sh && bash  Grafana/Install-Grafana/install-selenium-python-prerequisites.sh && ~/.local/bin/python3 Grafana/Install-Grafana/grafana-auto-login-with-selenium.py```
 
 
