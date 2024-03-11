@@ -24,5 +24,12 @@
 
 <img src="https://github.com/veronikaklauzova/Grafana/blob/main/Install-Grafana/Grafana-web-interface.png" width=80% height=80%>
 
+Alternatively, you can automate the initial logon into Grafana monitoring tool using following Selenium python script:
+
+```~/.local/bin/python3 grafana-auto-login-with-selenium.py```
+
+One liner to install grafana and test auto-login into monitoring tool:
+
+```git clone https://github.com/veronikaklauzova/Grafana.git && bash Grafana/Install-Grafana/install_grafana_raspberry_pi5.sh && ~/.local/bin/python3 Grafana/Install-Grafana/grafana-auto-login-with-selenium.py```
 
 
