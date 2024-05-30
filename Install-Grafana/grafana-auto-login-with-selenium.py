@@ -26,14 +26,17 @@ class TestGrafanaautologin():
 # 2 | setWindowSize | 1265x720 | 
     self.driver.set_window_size(1265, 720)
     # 3 | type | id=:r0: | admin
-    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/div/form/div[1]/div[2]/div/div/div/input").send_keys("admin")
+    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div/div/main/div[3]/div/div/div[2]/div/div/form/div[1]/div[2]/div/div/div/input").send_keys("admin")
     # 4 | click | id=:r1: | 
-    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/div/form/div[2]/div[2]/div/div/div/input").click()
+    time.sleep(1)
+    #self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/div/form/div[2]/div[2]/div/div/div/input").click()
     # 5 | type | id=:r1: | admin
-    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/div/form/div[2]/div[2]/div/div/div/input").send_keys("admin")
+    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div/div/main/div[3]/div/div/div[2]/div/div/form/div[2]/div[2]/div/div/div/input").send_keys("admin")
+    time.sleep(1)
     # 6 | click | css=.css-1b7vft8-button | 
-    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/div/form/button").click()
-    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/form/div[4]/div[2]/button").click()
+    #self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/div/form/button").click()
+    #self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/main/div/div/div[3]/div/div/div[2]/div/form/div[4]/div[2]/button").click()
+    self.driver.find_element(By.XPATH, "/html/body/div/div[1]/div/div/div/main/div[3]/div/div/div[2]/div/div/form/button/span").click()
     time.sleep(10)
 
 
